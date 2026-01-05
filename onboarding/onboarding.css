@@ -1,0 +1,52 @@
+
+/* Onboarding styles */
+.onboarding-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onboarding-card {
+  background: #0f172a;
+  color: #e5e7eb;
+  max-width: 420px;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.onboarding-card h2 {
+  margin-top: 0;
+  color: #22c55e;
+}
+
+.onboarding-card p {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.onboarding-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.onboarding-btn {
+  background: #22c55e;
+  border: none;
+  color: #022c22;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.onboarding-btn.secondary {
+  background: transparent;
+  color: #9ca3af;
+}
